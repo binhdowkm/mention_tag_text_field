@@ -60,6 +60,12 @@ class MentionTagTextEditingController extends TextEditingController {
     }
   }
 
+  void removeAllMentions() {
+    while (_mentions.isNotEmpty) {
+      remove(index: 0);
+    }
+  }
+
   late MentionTagDecoration mentionTagDecoration;
   void Function(String?)? onMention;
 
