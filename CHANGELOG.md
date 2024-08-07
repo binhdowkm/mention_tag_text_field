@@ -1,3 +1,4 @@
+
 ## 0.0.6
 **Fixed**
 - Issue where cursor moved to end of the text on editing in MentionTagTextFormField.
